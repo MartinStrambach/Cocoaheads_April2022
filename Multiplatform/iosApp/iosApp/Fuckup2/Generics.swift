@@ -1,9 +1,14 @@
-//
-//  Generics.swift
-//  iosApp
-//
-//  Created by Martin Štrambach on 27.04.2022.
-//  Copyright © 2022 orgName. All rights reserved.
-//
+import shared
+import UIKit
 
-import Foundation
+class GenericsIOS {
+	func sentenceComposer1() -> String {
+		let value = GenericsKt.functionWithGenericReturnValue() // Types inside dictionary are gone
+		return "missing data types"
+	}
+
+	func sentenceComposer2() -> String {
+		let value = GenericsKt.functionWithDataClassReturnValue() // Types are preserved
+		return value.value1 + value.value2.first!.key.stringValue
+	}
+}

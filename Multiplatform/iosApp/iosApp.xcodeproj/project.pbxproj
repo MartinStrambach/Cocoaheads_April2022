@@ -14,6 +14,8 @@
 		9338A9142819C1C00073E8BC /* MultiplatformPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9338A9132819C1C00073E8BC /* MultiplatformPublisher.swift */; };
 		9338A9162819C1E00073E8BC /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9338A9152819C1E00073E8BC /* Typealiases.swift */; };
 		9338A9182819C2AB0073E8BC /* Flow+MultiplatformPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9338A9172819C2AB0073E8BC /* Flow+MultiplatformPublisher.swift */; };
+		9338A91C2819CD6C0073E8BC /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9338A91B2819CD6C0073E8BC /* Generics.swift */; };
+		9338A91E2819DA680073E8BC /* SuspendFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9338A91D2819DA680073E8BC /* SuspendFunction.swift */; };
 		96F4F32A38AAC00CC7212F0D /* Pods_iosApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70DF08F0FE0BE062F1F6DE5F /* Pods_iosApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +31,8 @@
 		9338A9132819C1C00073E8BC /* MultiplatformPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplatformPublisher.swift; sourceTree = "<group>"; };
 		9338A9152819C1E00073E8BC /* Typealiases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealiases.swift; sourceTree = "<group>"; };
 		9338A9172819C2AB0073E8BC /* Flow+MultiplatformPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Flow+MultiplatformPublisher.swift"; sourceTree = "<group>"; };
+		9338A91B2819CD6C0073E8BC /* Generics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generics.swift; sourceTree = "<group>"; };
+		9338A91D2819DA680073E8BC /* SuspendFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuspendFunction.swift; sourceTree = "<group>"; };
 		D702CC8FA86B68225D8E8A0C /* Pods-iosApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosApp.release.xcconfig"; path = "Target Support Files/Pods-iosApp/Pods-iosApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,6 +91,8 @@
 				7555FF8C242A565B00829871 /* Info.plist */,
 				2152FB032600AC8F00CF470E /* iOSApp.swift */,
 				9338A90A2819C1750073E8BC /* Fuckup1 */,
+				9338A9192819CA6D0073E8BC /* Fuckup2 */,
+				9338A91A2819CA750073E8BC /* Fuckup3 */,
 				058557D7273AAEEB004C7B11 /* Preview Content */,
 			);
 			path = iosApp;
@@ -100,6 +106,22 @@
 				9338A9172819C2AB0073E8BC /* Flow+MultiplatformPublisher.swift */,
 			);
 			path = Fuckup1;
+			sourceTree = "<group>";
+		};
+		9338A9192819CA6D0073E8BC /* Fuckup2 */ = {
+			isa = PBXGroup;
+			children = (
+				9338A91B2819CD6C0073E8BC /* Generics.swift */,
+			);
+			path = Fuckup2;
+			sourceTree = "<group>";
+		};
+		9338A91A2819CA750073E8BC /* Fuckup3 */ = {
+			isa = PBXGroup;
+			children = (
+				9338A91D2819DA680073E8BC /* SuspendFunction.swift */,
+			);
+			path = Fuckup3;
 			sourceTree = "<group>";
 		};
 		D79A2E68068A11A7BE2D0448 /* Frameworks */ = {
@@ -209,6 +231,8 @@
 				9338A9182819C2AB0073E8BC /* Flow+MultiplatformPublisher.swift in Sources */,
 				9338A9162819C1E00073E8BC /* Typealiases.swift in Sources */,
 				2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */,
+				9338A91E2819DA680073E8BC /* SuspendFunction.swift in Sources */,
+				9338A91C2819CD6C0073E8BC /* Generics.swift in Sources */,
 				9338A9142819C1C00073E8BC /* MultiplatformPublisher.swift in Sources */,
 				7555FF83242A565900829871 /* ContentView.swift in Sources */,
 			);
